@@ -1,0 +1,316 @@
+:root {
+  /* font */
+  --main-font: "Roboto", sans-serif;
+  --font-secondary: "Raleway", sans-serif;
+  /*  colors */
+  --main-tex-ol: black;
+  --main-text: #212121;
+  --secondary-text: #757575;
+  --light-text: #ffffff;
+  --accent: #2196f3;
+  --secondary-bg: #f5f4fa;
+  --bground: #e5e5e5;
+  --lidht-bg-ol: #d9d9d9;
+  --main-bg-ol: #2f303a;
+  --footer-contacts: rgba(255, 255, 255, 0.6);
+
+  /* others */
+}
+body {
+  font-family: var(--main-font);
+  color: var(--main-tex-ol);
+}
+/* reset styles */
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/* Heder contact */
+.heder-mail,
+.heder-phone {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text);
+}
+
+.heder-mail:hover,
+.heder-phone:focus,
+.heder-mail:focus,
+.heder-phone:hover {
+  color: var(--accent);
+}
+
+/* Heder section */
+
+/* Logo */
+.logo {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--accent);
+}
+.stud {
+  color: #000000;
+}
+
+/* navigation */
+.nav a {
+  color: var(--main-text);
+}
+.nav-list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav a:hover,
+.nav a:focus {
+  color: var(--accent);
+}
+.nav a:active {
+  color: var(--accent);
+}
+
+.active-link[href="./index.html"] {
+  color: var(--accent);
+}
+.active-link[href="./portfolio.html"] {
+  color: var(--accent);
+}
+
+/*  hero section */
+
+.hero {
+  background: var(--main-bg-ol);
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--light-text);
+}
+/* button */
+.hero-button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 2.14;
+  background: var(--accent);
+}
+.tipe {
+  color: var(--light-text);
+  border: 0;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--bground);
+}
+
+/* button portfolio */
+
+.button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-text);
+  border: 0;
+  cursor: pointer;
+}
+.click {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+
+  color: var(--light-text);
+
+  background-color: var(--accent);
+}
+
+.button:hover {
+  background-color: var(--accent);
+  color: var(--main-text);
+}
+
+/* Content section */
+.content-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--main-text);
+}
+.content-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text);
+}
+/* section pictures */
+
+.pictures-work {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-tex);
+}
+.pictures-img {
+  cursor: pointer;
+}
+
+/* Team section */
+
+.team-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em c;
+
+  color: var(--main-text);
+}
+
+.team-persson {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--main-text);
+}
+
+.persson-info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text);
+}
+
+/* pictures portfolio */
+.caption {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: var(--main-text);
+}
+
+/* pictures */
+
+.item-image {
+  cursor: pointer;
+}
+/* text */
+.text-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text);
+}
+
+/* Footer */
+
+.footer-list {
+  background: var(--main-bg-ol);
+}
+.footer-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--accent);
+}
+
+.footer-stud {
+  color: var(--light-text);
+}
+/* Footer adress */
+
+.footer-adress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+
+  color: var(--light-text);
+}
+.footer-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+
+  color: var(--footer-contacts);
+}
+
+.footer-phone {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+
+  color: var(--footer-contacts);
+}
+
+.footer-mail:hover,
+.footer-phone:hover,
+.footer-mail:focus,
+.footer-phone:focus {
+  color: var(--light-text);
+}
