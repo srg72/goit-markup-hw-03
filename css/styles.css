@@ -16,9 +16,22 @@
 
   /* others */
 }
+
+/* bases styels */
 body {
   font-family: var(--main-font);
   color: var(--main-tex-ol);
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 /* reset styles */
 .link {
@@ -26,8 +39,21 @@ body {
 }
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 /* Heder contact */
+
 .heder-mail,
 .heder-phone {
   font-style: normal;
@@ -47,7 +73,16 @@ body {
 }
 
 /* Heder section */
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.header-container {
+}
 /* Logo */
 .logo {
   font-family: var(--font-secondary);
