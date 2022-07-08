@@ -151,8 +151,14 @@ p {
 .hero {
   background: var(--main-bg-ol);
 }
+.container-hero {
+  max-width: 700px;
+  max-height: 600px;
+  margin: auto;
+}
 
 .hero-title {
+  display: inline-block;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -161,10 +167,21 @@ p {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
+  align-items: center;
   color: var(--light-text);
 }
 /* button */
 .hero-button {
+  display: inline-block;
+  max-width: 200px;
+  max-height: 50px;
+  margin-top: 0;
+  margin-right: 470px;
+  margin-bottom: 200px;
+  margin-left: 470px;
+
+  border-radius: 4px;
+
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
