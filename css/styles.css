@@ -82,6 +82,8 @@ p {
 }
 
 .header-container {
+  display: flex;
+  align-items: center;
 }
 /* Logo */
 .logo {
@@ -92,10 +94,15 @@ p {
   line-height: 1.19;
   letter-spacing: 0.03em;
 
+  margin-right: 93px;
+
   color: var(--accent);
 }
 .stud {
-  color: #000000;
+  color: var(--main-tex-ol);
+}
+.heder-mail {
+  margin-right: 50px;
 }
 
 /* navigation */
@@ -108,6 +115,16 @@ p {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  margin-right: auto;
+}
+
+.nav-item {
+  margin-right: 50px;
+}
+
+.header-item:last-child {
+  margin-right: 0;
 }
 
 .nav a:hover,
@@ -118,6 +135,10 @@ p {
   color: var(--accent);
 }
 
+.nav-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .active-link[href="./index.html"] {
   color: var(--accent);
 }
