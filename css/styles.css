@@ -254,11 +254,10 @@ p {
 
 .content-list {
   display: flex;
-  height: 290px;
 }
 .content-group {
-  padding-top: 95px;
-  padding-bottom: 95px;
+  margin-top: 94px;
+  margin-bottom: 94px;
   margin-right: 30px;
 }
 
@@ -266,7 +265,7 @@ p {
   margin-right: 0;
 }
 .content-title {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -288,8 +287,17 @@ p {
   color: var(--secondary-text);
 }
 /* section pictures */
+.pictures-list {
+  display: flex;
+  margin-bottom: 94px;
 
+  cursor: pointer;
+}
+.pictures-img:last-child {
+  margin-right: 0;
+}
 .pictures-work {
+  margin-bottom: 50px;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -300,12 +308,16 @@ p {
   color: var(--main-tex);
 }
 .pictures-img {
-  cursor: pointer;
+  padding-right: 30px;
+}
+.pictures-img:last-child {
+  padding-right: 0;
 }
 
 /* Team section */
 
 .team-title {
+  display: flex;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -316,6 +328,9 @@ p {
   color: var(--main-text);
 }
 
+.photo {
+  cursor: pointer;
+}
 .team-persson {
   font-style: normal;
   font-weight: 500;
@@ -334,6 +349,8 @@ p {
   letter-spacing: 0.03em;
 
   color: var(--secondary-text);
+
+  cursor: pointer;
 }
 
 /* pictures portfolio */
