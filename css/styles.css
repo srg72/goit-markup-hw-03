@@ -44,7 +44,8 @@ body {
 .link {
   text-decoration: none;
 }
-.list {
+.list,
+.adress-contakt {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -158,7 +159,6 @@ p {
 .hero {
   background: var(--main-bg-ol);
   width: auto;
-  max-height: 600px;
 }
 .container-hero {
   display: flex;
@@ -276,7 +276,6 @@ p {
 }
 .content-text {
   width: 270px;
-  height: 100px;
 
   font-style: normal;
   font-weight: 400;
@@ -326,6 +325,15 @@ p {
 .team-item:last-child {
   margin-right: 0;
 }
+.team-info {
+  border: 1px solid var(--lidht-bg-ol);
+  border-top: none;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
 .team-title {
   padding-top: 94px;
@@ -345,12 +353,14 @@ p {
   cursor: pointer;
 }
 .team-persson {
+  padding-bottom: 10px;
+
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
+  text-align: center;
   color: var(--main-text);
 }
 
@@ -360,7 +370,7 @@ p {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
+  text-align: center;
   color: var(--secondary-text);
 
   cursor: pointer;
@@ -398,7 +408,6 @@ p {
 /* Footer */
 
 .footer-list {
-  min-height: 250px;
   background: var(--main-bg-ol);
 }
 .footer-logo {
@@ -412,10 +421,20 @@ p {
 }
 
 .footer-stud {
+  display: inline-block;
+  padding-top: 60px;
+  margin-bottom: 20px;
   color: var(--light-text);
 }
 /* Footer adress */
-
+.container-adress {
+  text-align: left;
+}
+.footer-contakt {
+  padding-inline-start: 0;
+  margin-top: 0;
+  margin-top: 0;
+}
 .footer-adress {
   font-style: normal;
   font-weight: 400;
@@ -426,7 +445,10 @@ p {
 
   color: var(--light-text);
 }
+
 .footer-mail {
+  margin-top: 0;
+  padding-bottom: 10px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -438,6 +460,7 @@ p {
 }
 
 .footer-phone {
+  margin-bottom: 60px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -453,4 +476,9 @@ p {
 .footer-mail:focus,
 .footer-phone:focus {
   color: var(--light-text);
+}
+.container-footer {
+  display: inline-block;
+  flex-direction: column;
+  margin-bottom: 60px;
 }
