@@ -427,12 +427,9 @@ p {
   color: var(--light-text);
 }
 /* Footer adress */
-.container-adress {
-  text-align: left;
-}
+
 .footer-contakt {
   padding-inline-start: 0;
-  margin-top: 0;
   margin-top: 0;
 }
 .footer-adress {
@@ -447,7 +444,6 @@ p {
 }
 
 .footer-mail {
-  margin-top: 0;
   padding-bottom: 10px;
   font-style: normal;
   font-weight: 400;
@@ -460,7 +456,6 @@ p {
 }
 
 .footer-phone {
-  margin-bottom: 60px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
