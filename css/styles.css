@@ -16,6 +16,11 @@
 
   /* others */
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 /* bases styels */
 body {
@@ -33,6 +38,7 @@ body {
   outline: 2px solid red;
   outline-offset: -2px;
 }
+
 /* reset styles */
 .link {
   text-decoration: none;
@@ -150,17 +156,24 @@ p {
 
 .hero {
   background: var(--main-bg-ol);
+  width: auto;
+  max-height: 600px;
 }
 .container-hero {
   display: flex;
   flex-direction: column;
-  max-width: 700px;
   margin: auto;
-  padding: 30px 15px;
+  padding-top: 200px;
 }
 
 .hero-title {
+  display: inline-block;
+  max-width: 700px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
+
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -169,15 +182,19 @@ p {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  align-items: center;
   color: var(--light-text);
 }
 /* button */
 .hero-button {
+  display: inline-block;
+  max-width: 200px;
+  height: 50px;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px 32px;
+  margin-bottom: 200px;
 
+  padding-top: 30px;
+  padding: 10px 32px;
   border-radius: 4px;
 
   font-style: normal;
@@ -187,6 +204,7 @@ p {
 
   background: var(--accent);
 }
+
 .tipe {
   color: var(--light-text);
   border: 0;
