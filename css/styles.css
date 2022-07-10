@@ -81,6 +81,10 @@ p {
 }
 
 /* Heder section */
+.heder {
+  display: inline-block;
+  margin-bottom: 94px;
+}
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -230,6 +234,8 @@ p {
   letter-spacing: 0.03em;
 
   color: var(--main-text);
+
+  border-radius: 4px;
   border: 0;
   cursor: pointer;
 }
@@ -428,8 +434,6 @@ p {
 }
 /* Footer adress */
 
-.container-footer {
-}
 .footer-adress {
   font-style: normal;
   font-weight: 400;
@@ -478,4 +482,17 @@ p {
   display: inline-block;
   flex-direction: column;
   margin-bottom: 60px;
+}
+
+/* portfolio filters-content */
+
+.main-title {
+  display: flex;
+  justify-content: center;
+}
+.filters-content {
+  padding-top: 94px;
+}
+.main-item {
+  margin-left: 30px;
 }
