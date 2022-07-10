@@ -516,3 +516,7 @@ p {
   margin-top: var(--card-image-gap);
   margin-bottom: 94px;
 }
+.item-image {
+  border: 1px solid var(--lidht-bg-ol);
+  border-top: none;
+}
