@@ -14,7 +14,8 @@
   --main-bg-ol: #2f303a;
   --footer-contacts: rgba(255, 255, 255, 0.6);
 
-  /* others */
+  /* card-image  */
+  --card-image-gap: 30px;
 }
 
 /* bases styels */
@@ -35,9 +36,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-
-  outline: 2px solid red;
-  outline-offset: -2px;
 }
 
 /* reset styles */
@@ -500,4 +498,21 @@ p {
 }
 .main-item {
   margin-left: 8px;
+  margin-bottom: 50px;
+}
+
+/* lict-image */
+
+.list-image {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--card-image-gap));
+  margin-top: calc(-1 * var(--card-image-gap));
+}
+
+.list-image > .item-link {
+  flex-basis: calc(100% / 3-30px);
+  margin-left: var(--card-image-gap);
+  margin-top: var(--card-image-gap);
+  margin-bottom: 94px;
 }
