@@ -428,9 +428,7 @@ p {
 }
 /* Footer adress */
 
-.footer-contakt {
-  padding-inline-start: 0;
-  margin-top: 0;
+.container-footer {
 }
 .footer-adress {
   font-style: normal;
@@ -441,6 +439,10 @@ p {
   letter-spacing: 0.03em;
 
   color: var(--light-text);
+}
+.footer-contakt {
+  padding-inline-start: 0;
+  margin-top: 0;
 }
 
 .footer-mail {
