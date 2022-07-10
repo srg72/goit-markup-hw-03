@@ -161,6 +161,8 @@ p {
 .hero {
   background: var(--main-bg-ol);
   width: auto;
+  border: 1px solid var(--lidht-bg-ol);
+  border-top: none;
 }
 .container-hero {
   display: flex;
