@@ -94,8 +94,6 @@ p {
 .header-container {
   display: flex;
   align-items: center;
-  border: 1px solid var(--lidht-bg-ol);
-  border-top: none;
 }
 /* Logo */
 .logo {
