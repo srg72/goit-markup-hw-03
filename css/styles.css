@@ -307,7 +307,6 @@ p {
   color: var(--main-tex);
 }
 .pictures-img {
-  padding-bottom: 94px;
   margin-right: 30px;
 }
 .pictures-img:last-child {
