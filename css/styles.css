@@ -155,27 +155,22 @@ p {
 
 .hero {
   background: var(--main-bg-ol);
-
-  width: 1200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .container-hero {
-  display: flex;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  padding-left: 250px;
-  padding-right: 250px;
-  flex-direction: column;
-}
-
-.hero-title {
   display: inline-block;
   max-width: 700px;
   height: 120px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.hero-title {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -183,6 +178,7 @@ p {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
 
   color: var(--light-text);
 }
