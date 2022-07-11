@@ -36,6 +36,9 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 /* reset styles */
@@ -58,10 +61,10 @@ h6,
 p {
   margin: 0;
 }
-/* Heder contact */
+/* Header contact */
 
-.heder-mail,
-.heder-phone {
+.header-mail,
+.header-phone {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -71,17 +74,16 @@ p {
   color: var(--secondary-text);
 }
 
-.heder-mail:hover,
-.heder-phone:focus,
-.heder-mail:focus,
-.heder-phone:hover {
+.header-mail:hover,
+.header-phone:focus,
+.header-mail:focus,
+.header-phone:hover {
   color: var(--accent);
 }
 
 /* Heder section */
-.heder {
+.header {
   display: inline-block;
-  margin-bottom: 94px;
 }
 
 .header-container {
@@ -104,7 +106,7 @@ p {
 .stud {
   color: var(--main-tex-ol);
 }
-.heder-mail {
+.header-mail {
   margin-right: 50px;
 }
 
@@ -126,7 +128,7 @@ p {
   margin-right: 50px;
 }
 
-.header-item:last-child {
+.nav-item:last-child {
   margin-right: 0;
 }
 
@@ -153,13 +155,17 @@ p {
 
 .hero {
   background: var(--main-bg-ol);
+
+  width: 1200px;
 }
 
 .container-hero {
   display: flex;
-  flex-direction: column;
-  margin: auto;
   padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 250px;
+  padding-right: 250px;
+  flex-direction: column;
 }
 
 .hero-title {
@@ -187,7 +193,6 @@ p {
   height: 50px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 200px;
 
   padding-top: 30px;
   padding: 10px 32px;
@@ -270,7 +275,7 @@ p {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
