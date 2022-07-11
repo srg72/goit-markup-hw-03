@@ -82,9 +82,6 @@ p {
 }
 
 /* Heder section */
-.header {
-  display: inline-block;
-}
 
 .header-container {
   display: flex;
@@ -156,7 +153,9 @@ p {
 .hero {
   background: var(--main-bg-ol);
   padding-top: 200px;
+  padding-right: 250px;
   padding-bottom: 200px;
+  padding-left: 250px;
 }
 
 .container-hero {
