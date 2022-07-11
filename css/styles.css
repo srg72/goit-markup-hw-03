@@ -405,7 +405,9 @@ p {
   background: var(--main-bg-ol);
   padding-top: 60px;
   padding-bottom: 64px;
+  padding-left: 15px;
   flex-direction: column;
+  width: auto;
 }
 
 .container-adress {
