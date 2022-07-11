@@ -35,7 +35,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 1200px;
 }
 
 /* reset styles */
@@ -83,6 +83,7 @@ p {
   display: inline-block;
   margin-bottom: 94px;
 }
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -160,7 +161,7 @@ p {
 
 .hero {
   background: var(--main-bg-ol);
-  width: auto;
+  width: 1200px;
 }
 .container-hero {
   display: flex;
@@ -418,6 +419,7 @@ p {
 
 .footer-list {
   background: var(--main-bg-ol);
+  width: 1200px;
 }
 .footer-logo {
   font-weight: 700;
@@ -517,6 +519,8 @@ p {
   margin-bottom: 94px;
 }
 .item-image {
-  border: 1px solid var(--lidht-bg-ol);
   border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid var(--lidht-bg-ol);
 }
