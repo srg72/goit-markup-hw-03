@@ -35,7 +35,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
-  margin-right: 1200px;
+  margin-right: auto;
 }
 
 /* reset styles */
@@ -82,14 +82,6 @@ p {
 .heder {
   display: inline-block;
   margin-bottom: 94px;
-}
-
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .header-container {
@@ -161,8 +153,8 @@ p {
 
 .hero {
   background: var(--main-bg-ol);
-  width: 1200px;
 }
+
 .container-hero {
   display: flex;
   flex-direction: column;
@@ -419,7 +411,6 @@ p {
 
 .footer-list {
   background: var(--main-bg-ol);
-  width: 1200px;
 }
 .footer-logo {
   font-weight: 700;
