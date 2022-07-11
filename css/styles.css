@@ -166,7 +166,6 @@ p {
   align-items: center;
 
   flex-direction: column;
-  margin: auto;
 }
 
 .hero-title {
@@ -406,7 +405,6 @@ p {
   padding-bottom: 64px;
   padding-left: 15px;
   flex-direction: column;
-  width: auto;
 }
 
 .container-adress {
