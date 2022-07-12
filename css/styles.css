@@ -402,7 +402,7 @@ p {
   display: flex;
   background: var(--main-bg-ol);
   padding-top: 60px;
-  padding-bottom: 64px;
+  padding-bottom: 60px;
 
   flex-direction: column;
 }
@@ -410,6 +410,12 @@ p {
 .container-adress {
   max-width: 230px;
   height: 80px;
+}
+.footer-adress {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0;
+  margin-right: auto;
 }
 .footer-logo {
   font-weight: 700;
@@ -427,7 +433,7 @@ p {
 }
 /* Footer adress */
 
-.footer-adress {
+.text-adress {
   display: inline-block;
   margin-bottom: 10px;
   font-style: normal;
