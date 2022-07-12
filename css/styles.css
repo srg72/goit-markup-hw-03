@@ -519,3 +519,6 @@ p {
   padding-left: 24px;
   padding-right: 24px;
 }
+.caption {
+  margin-bottom: 5px;
+}
