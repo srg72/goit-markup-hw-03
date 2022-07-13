@@ -519,7 +519,7 @@ p {
   border-bottom: 2px solid var(--lidht-bg-ol);
 }
 .cart-border {
-  border: 1px solid var(--lidht-bg-ol);
+  border: 1px solid var(--bground);
   border-top: none;
   padding-top: 20px;
   padding-bottom: 20px;
