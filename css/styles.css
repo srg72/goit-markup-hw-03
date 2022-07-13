@@ -96,7 +96,7 @@ p {
   line-height: 1.19;
   letter-spacing: 0.03em;
 
-  margin-right: 94px;
+  margin-right: 93px;
 
   color: var(--accent);
 }
@@ -152,6 +152,7 @@ p {
 
 .hero {
   background: var(--main-bg-ol);
+  background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
 }
