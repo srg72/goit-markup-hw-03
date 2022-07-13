@@ -251,10 +251,12 @@ p {
 
 /* Content section */
 
-.content-list {
-  display: flex;
+.content {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.content-list {
+  display: flex;
 }
 .content-group {
   margin-right: 30px;
@@ -265,7 +267,7 @@ p {
 }
 .content-title {
   display: inline-block;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -286,6 +288,9 @@ p {
   color: var(--secondary-text);
 }
 /* section pictures */
+.section-pictures {
+  padding-bottom: 94px;
+}
 .pictures-list {
   display: flex;
 
@@ -295,7 +300,7 @@ p {
   margin-right: 0;
 }
 .pictures-work {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -313,9 +318,12 @@ p {
 }
 
 /* Team section */
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .team-list {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .team-item {
@@ -326,7 +334,6 @@ p {
 }
 
 .team-title {
-  padding-top: 94px;
   padding-bottom: 50px;
 
   font-style: normal;
@@ -340,11 +347,10 @@ p {
 }
 
 .photo {
-  margin-bottom: 30px;
   cursor: pointer;
 }
 .team-persson {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 
   font-style: normal;
   font-weight: 500;
@@ -353,6 +359,10 @@ p {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--main-text);
+}
+.team-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .persson-info {
@@ -398,7 +408,7 @@ p {
 
 /* Footer */
 
-.footer-list {
+.footer {
   display: flex;
   background: var(--main-bg-ol);
   padding-top: 60px;
@@ -406,17 +416,13 @@ p {
 
   flex-direction: column;
 }
-
+.footer-list {
+  margin-bottom: 20px;
+}
 .container-adress {
   max-width: 230px;
-  height: 80px;
 }
-.footer-adress {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: 0;
-  margin-right: auto;
-}
+
 .footer-logo {
   font-weight: 700;
   font-size: 26px;
@@ -486,11 +492,11 @@ p {
 .main-title {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .main-item {
   margin-left: 8px;
-  margin-bottom: 50px;
 }
 
 /* lict-image */
@@ -514,7 +520,7 @@ p {
   border-bottom: 2px solid var(--lidht-bg-ol);
 }
 .cart-border {
-  border: 1px solid var(--lidht-bg-ol);
+  border: 1px solid var(--bground);
   border-top: none;
   padding-top: 20px;
   padding-bottom: 20px;
